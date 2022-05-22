@@ -21,5 +21,10 @@ sudo usermod -aG docker $USER
 newgrp docker
 
 
+//Images
+docker images
+docker run -ti ubuntu:latest bash   //ti means terminal interactive , run bash
+
+docker ps image --format //check running images
 
 
